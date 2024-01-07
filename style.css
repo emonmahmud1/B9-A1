@@ -122,7 +122,7 @@
     margin: 65px 125px 0px 0px;
 }
 
-/* date-time-section */
+/* booking-section */
 .booking-section {
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     max-width: 1320px;
@@ -130,6 +130,7 @@
     margin: auto;
     text-align: center;
     font-family: 'Inter', sans-serif;
+    border-radius: 20px;
 
 }
 
