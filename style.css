@@ -117,18 +117,18 @@
     font-family: 'Inter', sans-serif;
 
 }
-.date-time-section .date-time-text{
+.date-time-text{
     font-size: 30px;
     padding-top: 100px;
     margin-bottom: 48px;
 }
-.date-time-section .date-time-text h3{
+.date-time-text h3{
     margin-bottom: 20px;
 }
-.date-time-section .date-time-text span{
+.date-time-text span{
     color: #F00;
 }
-.date-time-section .btn-date-time{
+.btn-date-time{
     background-color: #F00;
     padding: 20px 30px;
 }
