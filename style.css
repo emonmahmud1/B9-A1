@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+#header {
+    background-image: url(resources/BannerImage.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 1300px;
+    height: 600px;
+    margin: auto;
+}
+
+.header-text {
+    font-family: 'Merriweather';
+    color: #e4d6d6;
+    text-align: center;
+    padding: 150px 340px;
+
+}
+
+.header-text h1 {
+    font-size: 50px;
+    font-weight: 900;
+    padding: 20px;
+}
+.header-text h3{
+    font-size: 30px;
+    font-weight: 400;
+}
