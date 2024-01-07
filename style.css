@@ -8,12 +8,13 @@
     background-image: url(resources/BannerImage.png);
     background-repeat: no-repeat;
     background-size: contain;
-    max-width: 1300px;
+    max-width: 1320px;
     height: 600px;
     margin: auto;
+    margin-bottom: 120px;
 }
 
-.header-text {
+#header .header-text {
     font-family: 'Merriweather';
     color: #e4d6d6;
     text-align: center;
@@ -21,13 +22,13 @@
 
 }
 
-.header-text h1 {
+#header .header-text h1 {
     font-size: 50px;
     font-weight: 900;
     padding: 20px;
 }
 
-.header-text h3 {
+#header .header-text h3 {
     font-size: 30px;
     font-weight: 400;
 }
@@ -36,28 +37,72 @@
 .offer-section {
     max-width: 800px;
     margin: auto;
-    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
-.offer-text {
+.offer-section .offer-text {
     /* border: 2px solid; */
     text-align: center;
     margin-bottom: 48px;
     font-family: 'Inter', sans-serif;
 
 }
-.offer-text h1, .offer-text h4{
+.offer-section .offer-text h1, .offer-text h4{
     color: #F00;
 }
-.offer-text h1 {
+.offer-section .offer-text h1 {
     font-size: 80px;
     margin-bottom: 40px;
 }
-.offer-text h4{
+.offer-section .offer-text h4{
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 10px;
 }
-.offer-text h2{
+.offer-section .offer-text h2{
     font-size: 35px;
+}
+
+/* join party section */
+.join-party{
+    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1320px;
+    height: 600px;
+    margin: auto;
+    margin-bottom: 120px;
+
+}
+.join-party-text{
+    color: #fff;
+    max-width: 660px;
+    padding: 150px 0px 0px 120px;
+
+}
+.join-party-text h1{
+    font-family: 'Merriweather', serif;
+    margin-bottom:20px;
+    font-size: 60px;
+}
+.join-party-text p{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 40px;
+}
+.btn-join-party{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    background-color: #C3852F;
+    color: #fff;
+    padding: 10px 15px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.btn-join-party:hover{
+    background-color: #DBAD50;
 }
