@@ -131,6 +131,7 @@
     text-align: center;
     font-family: 'Inter', sans-serif;
     border-radius: 20px;
+    margin-bottom: 120px;
 
 }
 
@@ -155,4 +156,37 @@
 
 .btn-booking:hover {
     background-color: rgb(97, 25, 25);
+}
+
+/* coming-soon-section */
+.coming-soon-section{
+    max-width: 1320px;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-bottom: 120px;
+
+}
+.coming-soon-offer h4{
+    color: #F00;
+    font-size: 20px;
+}
+.coming-soon-offer h2{
+    font-family: 'Merriweather', serif;
+    font-size: 45px;
+}
+.coming-soon-p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 17px;
+}
+.coming-soon-img{
+    border:10px solid #F00;
+    padding: 25px;
+    border-radius: 50%;
+    margin: 0px 80px;
+}
+.coming-soon-year h2{
+    font-size: 45px;
+    color: red;
 }
