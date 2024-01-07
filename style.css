@@ -88,7 +88,7 @@
 }
 
 .join-party-text h1 {
-    max-width: 600px;
+    width: 600px;
     font-family: 'Merriweather', serif;
     margin-bottom: 20px;
     font-size: 60px;
