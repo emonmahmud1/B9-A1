@@ -72,6 +72,8 @@
     height: 600px;
     margin: auto;
     margin-bottom: 120px;
+    display: flex;
+    justify-content: space-around;
 
 }
 .join-party-text{
@@ -105,6 +107,9 @@
 }
 .btn-join-party:hover{
     background-color: #DBAD50;
+}
+.new-year-logo{
+    margin: 65px 125px 0px 0px;
 }
 
 /* date-time-section */
