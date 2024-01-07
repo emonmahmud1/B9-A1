@@ -132,6 +132,6 @@
     background-color: #F00;
     padding: 20px 30px;
 }
-.date-time-section .btn-date-time:hover{
+.btn-booking:hover{
     background-color: rgb(97, 25, 25);
 }
