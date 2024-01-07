@@ -47,25 +47,30 @@
     font-family: 'Inter', sans-serif;
 
 }
-.offer-section .offer-text h1, .offer-text h4{
+
+.offer-section .offer-text h1,
+.offer-text h4 {
     color: #F00;
 }
+
 .offer-section .offer-text h1 {
     font-size: 80px;
     margin-bottom: 40px;
 }
-.offer-section .offer-text h4{
+
+.offer-section .offer-text h4 {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 10px;
 }
-.offer-section .offer-text h2{
+
+.offer-section .offer-text h2 {
     font-size: 35px;
 }
 
 /* join party section */
-.join-party{
-    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Vectorrr.png);
+.join-party {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Vectorrr.png);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1320px;
@@ -76,24 +81,27 @@
     justify-content: space-around;
 
 }
-.join-party-text{
-    color: #fff;
-    max-width: 660px;
-    padding: 150px 0px 0px 120px;
 
+.join-party-text {
+    color: #fff;
+    padding: 150px 0px 0px 120px;
 }
-.join-party-text h1{
+
+.join-party-text h1 {
+    max-width: 600px;
     font-family: 'Merriweather', serif;
-    margin-bottom:20px;
+    margin-bottom: 20px;
     font-size: 60px;
 }
-.join-party-text p{
+
+.join-party-text p {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     color: rgba(255, 255, 255, 0.8);
     margin-bottom: 40px;
 }
-.btn-join-party{
+
+.btn-join-party {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     background-color: #C3852F;
@@ -105,16 +113,18 @@
     cursor: pointer;
     font-weight: 700;
 }
-.btn-join-party:hover{
+
+.btn-join-party:hover {
     background-color: #DBAD50;
 }
-.new-year-logo{
+
+.new-year-logo {
     margin: 65px 125px 0px 0px;
 }
 
 /* date-time-section */
-.booking-section{
-    background-image:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+.booking-section {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     max-width: 1320px;
     height: 600px;
     margin: auto;
@@ -122,21 +132,26 @@
     font-family: 'Inter', sans-serif;
 
 }
-.booking-text{
+
+.booking-text {
     font-size: 30px;
     padding-top: 100px;
     margin-bottom: 48px;
 }
-.booking-text h3{
+
+.booking-text h3 {
     margin-bottom: 20px;
 }
-.booking-text span{
+
+.booking-text span {
     color: #F00;
 }
-.btn-booking{
+
+.btn-booking {
     background-color: #F00;
     padding: 20px 30px;
 }
-.btn-booking:hover{
+
+.btn-booking:hover {
     background-color: rgb(97, 25, 25);
 }
