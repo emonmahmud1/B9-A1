@@ -1,7 +1,6 @@
 * {
     margin: 0px;
-    /* font-family: 'Inter', sans-serif; */
-    /* font-family: 'Merriweather', serif; */
+    padding: 0px;
 }
 
 /* primery btn */
@@ -83,6 +82,7 @@
 .offer-section .offer-text h2 {
     font-size: 35px;
 }
+
 
 /* join party section */
 .join-party {
@@ -194,6 +194,11 @@
     padding: 25px;
     border-radius: 50%;
     margin: 0px 80px;
+    cursor: pointer;
+}
+
+.coming-soon-img:hover{
+    border-style: dashed;
 }
 
 .coming-soon-year h2 {
@@ -230,23 +235,41 @@
 .discount-section {
     width: 1320px;
     margin: auto;
-    margin-top: 120px;
-    border: 2px solid;
     margin-bottom: 100px;
+   
 
 }
-
-
-.discount-section .person-pic {
-    vertical-align: bottom;
+.discount-pics{
     position: relative;
+    height: 700px;
+}
+.discount-section .red-box-pic{
+    position: absolute;
+    bottom: 0;
 }
 
+.discount-section .box-pic{
+    position: absolute;
+    bottom: 0;
+ 
+}
+.discount-section .discount-image{
+    position: absolute;
+    top: 100px;
+    left: 740px;
+    cursor: pointer;
+    transition: transform 2s;
+}
+.discount-section .discount-image:hover{
+    transform: rotate(35deg);
 
-
-
-
-
+}
+.discount-section .person-pic {
+    /* vertical-align: bottom; */
+    position: absolute;
+    right: 0;
+    bottom: 229px;
+}
 
 /* portfolio-section */
 .portfolio-section {
@@ -279,7 +302,6 @@
     margin: 10px;
     border-radius: 20px;
     cursor: pointer;
-    transition: transform 3s;
     border: 1px solid rgb(189, 248, 101);
 }
 
@@ -367,6 +389,7 @@ footer {
     margin-right: 20px;
     border-radius: 50%;
     box-shadow: 2px 2px 15px rgb(25, 100, 118);
+    cursor: pointer;
 
 }
 
@@ -383,4 +406,7 @@ footer {
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
+}
+.copy-right p{
+    cursor: pointer;
 }
