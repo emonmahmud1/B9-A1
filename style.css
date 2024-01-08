@@ -377,6 +377,16 @@ footer {
 
 }
 
+
+.contact img{
+    padding:5px;
+}
+.contact .cell-phone, .contact .website{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .social-section {
     text-align: center;
     margin: 50px 0px;
