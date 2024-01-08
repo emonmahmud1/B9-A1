@@ -244,18 +244,11 @@
 
 }
 
-.discount-section .red-box-pic {}
 
-.discount-section .box-pic {
-    /* border: 2px solid;
-    height: 600px;
-    position: relative;
-    top: 220px; */
-}
 
-.discount-section .discount-image{
-    position: relative;
-}
+
+
+
 
 /* portfolio-section */
 .portfolio-section {
@@ -326,9 +319,7 @@
     border-radius: 50px 0px 0px 50px;
     
 }
-.input-button{
-   
-}
+
 .btn-newsletter{
     background-color: #F00;
     margin-left: -5px;
