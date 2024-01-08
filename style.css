@@ -4,8 +4,24 @@
     /* font-family: 'Merriweather', serif; */
 }
 
+/* primery btn */
+.btn-primary {
+
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    background-color: #C3852F;
+    color: #fff;
+    padding: 10px 15px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+
 #header {
-    background-image: url(resources/BannerImage.png);
+    background-image: linear-gradient(180deg,rgb(26, 8, 62,0.9), rgba(7, 2, 17, 0.00)), url(resources/BannerImage.png);
     background-repeat: no-repeat;
     background-size: contain;
     max-width: 1320px;
@@ -16,7 +32,7 @@
 
 #header .header-text {
     font-family: 'Merriweather';
-    color: #e4d6d6;
+    color: #fff;
     text-align: center;
     padding: 150px 340px;
 
@@ -70,7 +86,7 @@
 
 /* join party section */
 .join-party {
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Vectorrr.png);
+    background-image: linear-gradient(90deg, rgb(26, 8, 62,0.9), rgba(30, 7, 77, 0)), url(resources/Vectorrr.png);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1320px;
@@ -101,20 +117,9 @@
     margin-bottom: 40px;
 }
 
-.btn-join-party {
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    background-color: #C3852F;
-    color: #fff;
-    padding: 10px 15px;
-    margin-left: 30px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: 700;
-}
 
-.btn-join-party:hover {
+
+.btn-primary:hover {
     background-color: #DBAD50;
 }
 
@@ -124,7 +129,7 @@
 
 /* booking-section */
 .booking-section {
-    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background-image: linear-gradient(180deg, rgba(245, 7, 7, 0.1), rgba(216, 10, 10, 0));
     max-width: 1320px;
     height: 600px;
     margin: auto;
@@ -159,7 +164,7 @@
 }
 
 /* coming-soon-section */
-.coming-soon-section{
+.coming-soon-section {
     max-width: 1320px;
     margin: auto;
     font-family: 'Inter', sans-serif;
@@ -168,46 +173,218 @@
     margin-bottom: 120px;
 
 }
-.coming-soon-offer h4{
+
+.coming-soon-offer h4 {
     color: #F00;
     font-size: 20px;
 }
-.coming-soon-offer h2{
+
+.coming-soon-offer h2 {
     font-family: 'Merriweather', serif;
     font-size: 45px;
 }
-.coming-soon-p{
+
+.coming-soon-p {
     color: rgba(7, 2, 17, 0.60);
     font-size: 17px;
 }
-.coming-soon-img{
-    border:10px solid #F00;
+
+.coming-soon-img {
+    border: 10px solid #F00;
     padding: 25px;
     border-radius: 50%;
     margin: 0px 80px;
 }
-.coming-soon-year h2{
+
+.coming-soon-year h2 {
     font-size: 45px;
     color: red;
 }
+
 /* holiday-sale-section */
-.holiday-sale-section{
-   text-align: center;
-   max-width: 1000px;
-   margin: auto; 
-   margin-bottom: 120px;  
+.holiday-sale-section {
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 120px;
 }
-.holiday-sale-section h4{
+
+.holiday-sale-section h4 {
     font-size: 20px;
     font-family: 'Inter', sans-serif;
-    color:#F00;
+    color: #F00;
     margin-bottom: 10px;
 }
-.holiday-sale-section h1{
+
+.holiday-sale-section h1 {
     font-family: 'Merriweather', serif;
     font-size: 60px;
     margin-bottom: 10px;
 }
-.holiday-sale-section h1 span{
+
+.holiday-sale-section h1 span {
     color: #F00;
+}
+
+/* discount section */
+.discount-section {
+    width: 1320px;
+    margin: auto;
+    margin-top: 120px;
+    border: 2px solid;
+    margin-bottom: 100px;
+
+}
+
+
+.discount-section .person-pic {
+    vertical-align: bottom;
+    position: relative;
+   
+
+}
+
+.discount-section .red-box-pic {}
+
+.discount-section .box-pic {
+    /* border: 2px solid;
+    height: 600px;
+    position: relative;
+    top: 220px; */
+}
+
+.discount-section .discount-image{
+    position: relative;
+}
+
+/* portfolio-section */
+.portfolio-section {
+    max-width: 1320px;
+    margin: auto;
+    margin-bottom: 120px;
+}
+
+.portfolio-text {
+    margin-bottom: 40px;
+}
+
+.portfolio-text h4 {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #F00;
+    margin-bottom: 10px;
+
+}
+
+.portfolio-text h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 45px;
+
+}
+
+.portfolio-pics img {
+    width: 400px;
+    height: 410;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 3s;
+    border: 1px solid rgb(189, 248, 101);
+}
+
+.portfolio-pics img:hover {
+    box-shadow: 15px 15px 10px rgb(78, 123, 134);
+    /* transform: rotate(360deg); */
+    transition: .3s ease-in-out;
+}
+
+/* newsletter-section */
+
+.newsletter-section {
+    background: rgba(255, 0, 0, 0.05);
+    max-width: 1320px;
+    margin: auto;
+    text-align: center;
+    padding: 70px 0px;
+    border-radius: 20px;
+    margin-bottom: 120px;
+}
+
+.newsletter-section * {
+    margin-bottom: 20px;
+}
+
+.newsletter-section h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 45px;
+}
+
+.newsletter-section input {
+    width: 500px;
+    border: none;
+    padding: 20px;
+    border-radius: 50px 0px 0px 50px;
+    
+}
+.input-button{
+   
+}
+.btn-newsletter{
+    background-color: #F00;
+    margin-left: -5px;
+    padding: 15px 30px 20px;
+    border-radius: 0px 50px 50px 0px;
+   
+}
+.btn-newsletter:hover{
+    background-color: rgb(205, 79, 79);
+}
+/* footer section */
+
+footer{
+    background-color: rgb(17, 9, 34);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+
+}
+.footer-section{
+    max-width: 1320px;
+    margin: auto;
+    padding: 100px 0px 100px 0px;
+    color: #fff;    
+}
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+   
+}
+.contact-section p{
+    margin-bottom: 10px;
+   
+}
+
+.social-section{
+    text-align: center;
+    margin:50px 0px ;
+}
+.social-section img{
+    margin-right: 20px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 15px rgb(25, 100, 118);
+
+}
+.social-section img:hover{
+    box-shadow:none;
+}
+
+.footer-section .hr{
+    border: 1px solid rgb(198, 194, 190);
+    margin: auto;
+}
+.copy-right{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
 }
