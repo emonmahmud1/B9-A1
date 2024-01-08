@@ -21,7 +21,7 @@
 }
 
 #header {
-    background-image: linear-gradient(180deg,rgb(26, 8, 62,0.9), rgba(7, 2, 17, 0.00)), url(resources/BannerImage.png);
+    background-image: linear-gradient(180deg, rgb(26, 8, 62, 0.9), rgba(7, 2, 17, 0.00)), url(resources/BannerImage.png);
     background-repeat: no-repeat;
     background-size: contain;
     max-width: 1320px;
@@ -86,7 +86,7 @@
 
 /* join party section */
 .join-party {
-    background-image: linear-gradient(90deg, rgb(26, 8, 62,0.9), rgba(30, 7, 77, 0)), url(resources/Vectorrr.png);
+    background-image: linear-gradient(90deg, rgb(26, 8, 62, 0.9), rgba(30, 7, 77, 0)), url(resources/Vectorrr.png);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1320px;
@@ -240,8 +240,6 @@
 .discount-section .person-pic {
     vertical-align: bottom;
     position: relative;
-   
-
 }
 
 
@@ -287,7 +285,6 @@
 
 .portfolio-pics img:hover {
     box-shadow: 15px 15px 10px rgb(78, 123, 134);
-    /* transform: rotate(360deg); */
     transition: .3s ease-in-out;
 }
 
@@ -317,64 +314,72 @@
     border: none;
     padding: 20px;
     border-radius: 50px 0px 0px 50px;
-    
+
 }
 
-.btn-newsletter{
+.btn-newsletter {
     background-color: #F00;
     margin-left: -5px;
     padding: 15px 30px 20px;
     border-radius: 0px 50px 50px 0px;
-   
+
 }
-.btn-newsletter:hover{
+
+.btn-newsletter:hover {
     background-color: rgb(205, 79, 79);
 }
+
 /* footer section */
 
-footer{
+footer {
     background-color: rgb(17, 9, 34);
     font-family: 'Inter', sans-serif;
     font-size: 20px;
 
 }
-.footer-section{
+
+.footer-section {
     max-width: 1320px;
     margin: auto;
     padding: 100px 0px 100px 0px;
-    color: #fff;    
+    color: #fff;
 }
-.contact-section{
+
+.contact-section {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-    
-   
-}
-.contact-section p{
-    margin-bottom: 10px;
-   
+
+
 }
 
-.social-section{
-    text-align: center;
-    margin:50px 0px ;
+.contact-section p {
+    margin-bottom: 10px;
+
 }
-.social-section img{
+
+.social-section {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.social-section img {
     margin-right: 20px;
     border-radius: 50%;
     box-shadow: 2px 2px 15px rgb(25, 100, 118);
 
 }
-.social-section img:hover{
-    box-shadow:none;
+
+.social-section img:hover {
+    box-shadow: none;
 }
 
-.footer-section .hr{
+.footer-section .hr {
     border: 1px solid rgb(198, 194, 190);
     margin: auto;
 }
-.copy-right{
+
+.copy-right {
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
